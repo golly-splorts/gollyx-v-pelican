@@ -41,11 +41,11 @@ case ${GOLLYX_STAGE} in
     ### ;;
     integration)
     DOM="${GOLLYX_BASE_UI}"
-    REPO="iv.golly.life-integration"
+    REPO="v.golly.life-integration"
     ;;
     prod)
     DOM="${GOLLYX_BASE_UI}"
-    REPO="iv.golly.life"
+    REPO="v.golly.life"
     ;;
     *)
     echo "Unrecognized stage: ${GOLLYX_STAGE}"
